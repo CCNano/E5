@@ -17,7 +17,7 @@ jobs:
     - run: python E5.py
     - name: Commit files
       run: |
-        git config --local user.email "48090953+CCNano@users.noreply.github.com when"
+        git config --local user.email "48090953+CCNano@users.noreply.github.com"
         git config --local user.name "CCNano"
         git commit -a -m "Add changes"
     - name: Push changes
