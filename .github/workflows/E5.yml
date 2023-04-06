@@ -5,6 +5,9 @@ on:
     - cron: '43 2 * * *'
   watch:
     types: [started]
+  push:
+    branches:
+      - main
     
 jobs:
   build:
