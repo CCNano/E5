@@ -17,8 +17,8 @@ jobs:
     - run: python E5.py
     - name: Commit files
       run: |
-        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
+        git config --local user.email "48090953+CCNano@users.noreply.github.com when"
+        git config --local user.name "CCNano"
         git commit -a -m "Add changes"
     - name: Push changes
       uses: ad-m/github-push-action@master
